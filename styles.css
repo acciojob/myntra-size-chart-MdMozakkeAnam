@@ -1,21 +1,31 @@
-
-/* Your CSS Code here. */
 body{
     font-family: Arial, sans-serif;
-    text-align: center;
+}
+
+h2{
+    margin-left: 10px;
 }
 
 table{
     border-collapse: collapse;
-    width: 60%;
-    margin: 20px auto;
+    width: 500px;
 }
 
 th, td{
-    border: 1px solid black;
-    padding: 10px;
+    border: 1px solid #999;
+    padding: 6px;
 }
 
-th{
-    background-color: #f2f2f2;
+thead th{
+    background-color: #c04b46;
+    color: white;
+    text-align: left;
+}
+
+tbody td{
+    background-color: #e6c6c4;
+}
+
+tbody td:first-child{
+    background-color: #d7c4c3;
 }
